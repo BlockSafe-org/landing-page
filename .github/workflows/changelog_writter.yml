@@ -1,0 +1,22 @@
+name: Changelog
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Generate changelog
+        run: |
+          # Generate changelog using a tool of your choice (e.g. conventional-changelog)
+          conventional-changelog -p angular -i CHANGELOG.md -s
+      - name: Write changelog to file
+        run: |
+          # Get the current time and the name of the user who triggered the push event
+          TIME=$(date)
+          USER=$(echo "$GITHUB_ACTOR")
+          # Write the changelog to a file in the repository, including the time and user information
+          echo "Changelog updated at $TIME by $USER" >> changelog/latest.md
+          echo "$(cat CHANGELOG.md)" >> changelog/latest.md
