@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
@@ -37,21 +36,6 @@ export default function Footer() {
               An E-Banking service on the Ethereum network.
             </div>
 
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44">
-                <Image
-                  src="/img/vercel.svg"
-                  layout="responsive"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
           </div>
 
           <div>

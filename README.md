@@ -3,7 +3,7 @@
 ### 1\. Clone this Repository
 
 ```bash
-git clone 
+git clone
 ```
 
 ### 2\. Navigate to the directory
@@ -29,5 +29,3 @@ npm run dev
 ```
 
 ---
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
