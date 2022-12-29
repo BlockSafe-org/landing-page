@@ -15,6 +15,8 @@ import featureThreeImg from "../public/img/sending.jpg";
 import featureFourImg from "../public/img/shop.png";
 import tokenImg from "../public/img/gencoin.png";
 import stakeImg from "../public/img/saving.jpg";
+import founderOneImg from "../public/img/founder1.jpg";
+import founderTwoImg from "../public/img/founder2.jpg";
 
 const benefitOne = {
   title: "Highlighted Features",
@@ -98,4 +100,16 @@ const gencoinTwo = {
   image: stakeImg,
 }
 
-export { benefitOne, benefitTwo, featureOne, featureTwo, featureThree ,featureFour, gencoinOne, gencoinTwo};
+const founderOne = {
+  title:"Blockchain Engineer, Founder",
+  name: "Ssali Benjamin Tamale",
+  image: founderOneImg
+}
+
+const founderTwo = {
+  title:"Software Engineer, Co-Founder",
+  name: "Ssemwogerere Trevor Simon",
+  image: founderTwoImg
+}
+
+export { benefitOne, benefitTwo, featureOne, featureTwo, featureThree ,featureFour, gencoinOne, gencoinTwo, founderOne, founderTwo};

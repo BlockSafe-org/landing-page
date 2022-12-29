@@ -1,10 +1,10 @@
 import Navbar from "../../components/navbar";
 import Head from "next/head";
 import Footer from "../../components/footer";
-import SectionTitle from "../../components/sectionTitle";
 import blocklyLogo from "../../public/img/blockly.png";
 import Image from "next/image";
 import TitleIntro from "../../components/titleIntro";
+import "bulma/css/bulma.min.css";
 
 export default function Blockly() {
     return (
@@ -35,6 +35,25 @@ export default function Blockly() {
       <p>
           Blockly will be coming soon to BlockSafe in the future builds of the application.
       </p>
+        </TitleIntro>
+        <TitleIntro title="What we offer">
+        <div className="columns has-text-centered">
+      <div className="column">
+        <ul className="m-1" style={{"list-style-type": "square"}}>
+          <li>h6 Goods at wholesale prices (no middle men involved)</li>
+          <li>An opportunity for retailers to market their goods globally for an affordable monthly cost.</li>
+          <li>Direct payment of merchants on purchase of their goods.</li>
+          <li>Accountablity, records and statistics of sales made.</li>
+        </ul>
+      </div>
+      <div className="column">
+      <ul style={{"list-style-type": "square"}}>
+          <li>Tracking of Goods</li>
+          <li>Good delivery services</li>
+          <li>Customer care and support</li>
+        </ul>
+      </div>
+    </div>
         </TitleIntro>
         <Footer />
         </>
