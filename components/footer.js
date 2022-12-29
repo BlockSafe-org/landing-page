@@ -4,10 +4,10 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    {name:"Features", link:"/"},
-    {name:"What is Gencoin?", link:"/"},
-    {name:"Blockly", link:"/"},
-    {name:"About",link:"/"}
+    {name:"Features", link:"/features"},
+    {name:"What is Gencoin?", link:"/gencoin"},
+    {name:"Blockly", link:"/blockly"},
+    {name:"About",link:"/about"}
   ];
   const legal = [{name:"Terms", link:"/"},{name:"Privacy", link:"/"},{name:"Legal", link:"/"}];
   return (
