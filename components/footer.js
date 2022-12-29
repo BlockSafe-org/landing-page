@@ -97,9 +97,9 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made by <a href="https://anslem27.github.io/">Anslem Seguya </a>
+          Copyright © {new Date().getFullYear()}. Made by 
           <a
-            href=""
+            href="https://anslem27.github.io/"
             target="_blank"
             rel="noopener">
             the BlockSafe Team.

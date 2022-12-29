@@ -1,7 +1,8 @@
 import Navbar from "../../components/navbar";
 import Head from "next/head";
 import Footer from "../../components/footer";
-import SectionTitle from "../../components/sectionTitle";
+import Row from "../../components/row";
+import { gencoinOne, gencoinTwo} from "../../components/data";
 
 export default function Gencoin() {
     return (
@@ -14,10 +15,8 @@ export default function Gencoin() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar/>
-        <SectionTitle pretitle="Features"
-        title="Features of BlockSafe">
-            What about BlockSafe?
-        </SectionTitle>
+        <Row data={gencoinOne}/>
+        <Row data={gencoinTwo} imgPos="right"/>
         <Footer />
         </>
         )
