@@ -6,6 +6,7 @@ export default function Navbar() {
   const navigation = [
     "Features",
     "What is gencoin?",
+    "Blockly",
     "About",
   ];
 

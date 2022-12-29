@@ -27,7 +27,7 @@ export default function Home() {
       <SectionTitle
         pretitle="Why BlockSafe"
         // TODO: Add appropriate wording everywhere neccessary
-        title=" Why should you use blocksafe">
+        title=" Why should you use BlockSafe">
         A user can borrow upto 80% of what they have staked. Users will then be charged with interest of 2.5% of what they have borrowed and
         are free to pay back any time they get the money. On unstaking, the money will be automatically deducted on end of the stake period.
 

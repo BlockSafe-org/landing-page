@@ -10,7 +10,7 @@ export default function Cta() {
             Ready to try-out BlockSafe?
           </h2>
           <p className="mt-2 font-medium text-black text-opacity-90 lg:text-xl">
-            E-banking on etherium.
+            E-banking on Ethereum.
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">

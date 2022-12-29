@@ -16,18 +16,18 @@ const benefitOne = {
   image: benefitOneImg,
   bullets: [
     {
-      title: "Blockyly",
-      desc: "Spend money wintin the app, without actually having to withdraw it.",
+      title: "Blockly",
+      desc: "Spend money within the app, without actually having to withdraw it.",
       icon: <SaveIcon />,
     },
     {
       title: "Proof of Stake",
-      desc: "Talk more about proof of stake here",
+      desc: "Earn up to 10% of what you stake in Gencoin.",
       icon: <ChartSquareBarIcon />,
     },
     {
-      title: "Staking",
-      desc: "Talk more about stake here",
+      title: "No transfer limits",
+      desc: "There is no limit to how much you can send or receive.",
       icon: <CurrencyPoundIcon />,
     },
   ],
@@ -39,18 +39,18 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive design",
-      desc: "Talk more about the feature here",
+      title: "Simplified use of the Blockchain",
+      desc: "Simplifies the use of the blockchain into your everyday banking app.",
       icon: <DeviceMobileIcon />,
     },
     {
       title: "Security",
-      desc: "Talk more about the feature here as well",
+      desc: "Secure and transparent through the use of Blockchain technology.",
       icon: <AdjustmentsIcon />,
     },
     {
-      title: "Feature",
-      desc: "Talk more about the feature here as well",
+      title: "Accountability",
+      desc: "All transaction information is stored both on the blockchain and on Google servers through Firebase.",
       icon: <SunIcon />,
     },
   ],
