@@ -38,17 +38,12 @@ const faqdata = [
     answer: "Yes, this app is completely free to use.",
   },
   {
-    question: "Can I share my money from inApp?",
-    answer: "No, this you can't.",
-  },
-  {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with our app for any reason, email us and we'll get back to you, no questions asked.",
+    question: "Can I share my money from in App?",
+    answer: "You can send money to all users of the app and any Ethereum address.",
   },
   {
     question: "Do you offer technical support? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "You can email us at blocksafeug@gmail.com for any inquires, issues or bugs found while navigating the app.",
   },
 ];

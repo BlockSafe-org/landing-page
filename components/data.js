@@ -101,13 +101,13 @@ const gencoinTwo = {
 }
 
 const founderOne = {
-  title:"Blockchain Engineer, Founder",
+  title:"Founder",
   name: "Ssali Benjamin Tamale",
   image: founderOneImg
 }
 
 const founderTwo = {
-  title:"Software Engineer, Co-Founder",
+  title:"Co-Founder",
   name: "Ssemwogerere Trevor Simon",
   image: founderTwoImg
 }
