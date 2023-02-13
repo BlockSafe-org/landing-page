@@ -1,6 +1,6 @@
 {
   "name": "blocksafe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BlockSafe Landing Page made with next js",
   "private": true,
   "scripts": {
