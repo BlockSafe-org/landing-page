@@ -28,4 +28,10 @@ yarn dev
 npm run dev
 ```
 
+### 6\. Build local
+
+```
+yarn build
+```
+
 ---

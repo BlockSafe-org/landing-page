@@ -1,6 +1,6 @@
 {
   "name": "blocksafe",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "BlockSafe Landing Page made with next js",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
     "type": "git"
   },
   "keywords": [
-    "nextjs",
-    "tailwindcss",
+    "blocksafe",
+    "e-banking",
     "free"
   ],
   "author": "Anslem",
