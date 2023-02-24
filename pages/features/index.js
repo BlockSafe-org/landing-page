@@ -8,6 +8,7 @@ import { featureFour, featureOne, featureThree, featureTwo } from "../../compone
 export default function Features() {
     return (
         <>
+        <div style={{padding:50}}>
          <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
             <meta
@@ -20,8 +21,9 @@ export default function Features() {
         title="Features of BlockSafe"/>
         <Row data={featureOne}/>
         <Row data={featureTwo} imgPos="right"/>
-        <Row data={featureThree}/>
+        <Row data={featureThree} />
         <Row data={featureFour} imgPos="right"/>
+        </div>
         <Footer />
         </>
         )

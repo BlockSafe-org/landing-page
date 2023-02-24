@@ -62,7 +62,7 @@ export default function Founder(props) {
                 <Instagram />
               </a>
               <a
-                href={props.linkedlin}
+                href={props.linkedin}
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Linkedin</span>

@@ -8,7 +8,8 @@ import "bulma/css/bulma.min.css";
 
 export default function Blockly() {
     return (
-        <>
+      <>
+      <div style={{padding:50}}>
          <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
             <meta
@@ -37,17 +38,17 @@ export default function Blockly() {
       </p>
         </TitleIntro>
         <TitleIntro title="What we offer">
-        <div className="columns has-text-centered">
+        <div className="columns">
       <div className="column">
-        <ul className="m-1" style={{"list-style-type": "square"}}>
-          <li>h6 Goods at wholesale prices (no middle men involved)</li>
+        <ul className="m-1" style={{"list-style-type": "none"}}>
+          <li>Goods at wholesale prices (no middle men involved)</li>
           <li>An opportunity for retailers to market their goods globally for an affordable monthly cost.</li>
           <li>Direct payment of merchants on purchase of their goods.</li>
           <li>Accountablity, records and statistics of sales made.</li>
         </ul>
       </div>
       <div className="column">
-      <ul style={{"list-style-type": "square"}}>
+      <ul style={{"list-style-type": "none"}}>
           <li>Tracking of Goods</li>
           <li>Good delivery services</li>
           <li>Customer care and support</li>
@@ -55,6 +56,7 @@ export default function Blockly() {
       </div>
     </div>
         </TitleIntro>
+        </div>
         <Footer />
         </>
         )

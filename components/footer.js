@@ -34,7 +34,8 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              An E-Banking service on the Ethereum network.
+              An E-Banking service on the Ethereum network. <br />
+              <a href="https://www.freepik.com/free-vector/people-exchanging-bitcoin-dollars_3530058.htm#query=coin%20swap&position=1&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik
             </div>
 
           </div>

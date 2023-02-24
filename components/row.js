@@ -14,8 +14,8 @@ export default function Row(props) {
               <div>
                 <Image
                   src={data.image}
-                  width="320"
-                  height="290"
+                  width="350"
+                  height="320"
                   alt="Benefits"
                   layout="intrinsic"
                   placeholder="blur"
