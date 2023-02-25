@@ -9,7 +9,7 @@ import "bulma/css/bulma.min.css";
 export default function Blockly() {
     return (
       <>
-      <div style={{padding:50}}>
+      <div>
          <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
             <meta

@@ -8,7 +8,7 @@ import Founder from "../../components/founder";
 export default function About() {
     return (
         <>
-        <div style={{padding:50}}>
+        <div>
          <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
             <meta

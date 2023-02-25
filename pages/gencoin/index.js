@@ -7,7 +7,7 @@ import { gencoinOne, gencoinTwo} from "../../components/data";
 export default function Gencoin() {
     return (
         <>
-        <div style={{padding:50}}>
+        <div>
          <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
             <meta

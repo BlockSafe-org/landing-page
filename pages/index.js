@@ -13,7 +13,7 @@ import Faq from "../components/faq";
 export default function Home() {
   return (
     <>
-    <div style={{padding:50}}>
+    <div>
       <Head>
         <title>BlockSafe, secured with blockchain Technology.</title>
         <meta
